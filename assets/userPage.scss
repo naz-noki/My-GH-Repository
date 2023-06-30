@@ -1,0 +1,22 @@
+.userPage{
+    max-width: 85vw;
+    height: max-content;
+    min-height: 97.5vh;
+    margin: 10px auto;
+    background-color: #ffffff3b;
+    color: rgba(255, 255, 255, 0.712);
+    border-radius: 9px;
+    display: flex;
+
+    
+    .userPage__block{
+        width: 100%;
+        height: max-content;
+        .userPage__nav{
+            width: 100%;
+            height: max-content;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

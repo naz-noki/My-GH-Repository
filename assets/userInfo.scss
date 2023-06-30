@@ -1,0 +1,57 @@
+.userPage__info{
+    width: max-content;
+    min-width: 35vw;
+    height: 97.5vh;
+    .userPage__block{
+        width: 100%;
+        height: max-content;
+        .userPage__avatar{
+            width: 300px;
+            height: 300px;
+            margin: 15px;
+            border-radius: 50%;
+        }
+        .userPage__name{
+            width: max-content;
+            height: max-content;
+            font-weight: bolder;
+            margin-top: -250px;
+            margin-left: 350px;
+            font-size: 25px;
+        }
+        .userPage__login{
+            width: max-content;
+            height: max-content;
+            margin-left: 350px;
+            color: rgba(255, 255, 255, 0.562);
+            font-weight: bold;
+            font-size: 19px;
+            transition: 200ms;
+            &:hover{
+                border-bottom: 1.5px solid rgba(255, 255, 255, 0.562);
+                transition: 150ms;
+                color: rgba(255, 255, 255, 0.712);
+            }
+        }
+        .userPage__follow{
+            max-width: 250px;
+            min-width: 175px;
+            height: max-content;
+            margin-top: 150px;
+            margin-left: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 17px;
+            font-weight: 700;
+        }
+    }
+    .userPage__additionally{
+        max-width: 85vw;
+        height: max-content;
+        margin-top: 25px;
+        margin-left: 15px;
+        font-size: 17px;
+        font-weight: 450;
+    }
+}

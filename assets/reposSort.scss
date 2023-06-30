@@ -1,0 +1,20 @@
+.reposSort{
+    cursor: pointer;
+    width: max-content;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: #0000008c;
+    border: 1px solid #0000008c;
+    transition: 200ms;
+    .reposSort_item{
+        background-color: #000000a8;
+    }
+    &:hover{
+        transition: 150ms;
+        -webkit-box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.2) inset;
+        -moz-box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.2) inset;
+        box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.2) inset;        
+    }
+}

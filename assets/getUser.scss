@@ -1,0 +1,52 @@
+.getUser{
+    width: 550px;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 500px;
+    .getUser__info{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .getUser__block{
+        width: 350px;
+        height: 30px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        .getUser__inp{
+            width: 350px;
+            height: 30px;
+            padding-right: 31px;
+            border-radius: 9px;
+            font-size: 15px;
+            padding-left: 10px;
+            color: #ffffff75;
+            background-color: #00000031;
+            -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);       
+        }
+        .searchUser__btn{
+            width: 30px;
+            height: 30px;
+            margin-left: -30px;
+            border-radius: 0px 9px 9px 0px;
+            background-color: #161b22;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 200ms;
+            .searchUser__img{
+                width: 16px;
+                height: 16px;
+            }
+            &:hover{
+                transition: 150ms;
+                -webkit-box-shadow: 100px 100px 8px 0px rgba(255, 255, 255, 0.2) inset;
+                -moz-box-shadow: 100px 100px 8px 0px rgba(255, 255, 255, 0.2) inset;
+                box-shadow: 100px 100px 8px 0px rgba(255, 255, 255, 0.2) inset;                                        
+            }
+        }
+    }
+} 
